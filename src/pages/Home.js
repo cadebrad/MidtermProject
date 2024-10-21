@@ -1,5 +1,7 @@
 import React from 'react';
 import destinationsData from '../destinations.json';
+import countryData from '../data.json';
+
 const Home = () => {
 
   return <div>
@@ -30,17 +32,19 @@ const renderCountriesandCities=()=>{
 const renderDestinations = () => {
     // Extract a sample city and country data from destinations
     const destinationsArray = destinationsData.destinations;
-    const randomIndex = Math.floor(Math.random() * destinationsArray.length); 
+    const countryArray = countryData.countries;
+    const randomIndex = Math.floor(Math.random() * destinationsArray.length);
+    const randomIndex1 = Math.floor(Math.random() * countryArray.length);  
     console.log(randomIndex);
     const sampleCity = destinationsData.destinations[randomIndex]; // Assuming the first destination is a city
-    const sampleCountry = destinationsData.destinations[randomIndex]; // Assuming the first country is used
+    const sampleCountry = countryData.countries[randomIndex1]; // Assuming the first country is used
   
     return (
       <div className="container mx-auto p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <button 
         className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden w-full h-64"
-        onClick={() => window.location.href = "/city"}
+        onClick={() => window.location.href = "/cities"}
         >
         <img 
           src={sampleCity.image} 

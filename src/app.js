@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About'; 
 import Countries from './pages/Countries';
 import Cities from './pages/Cities';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <Router>
