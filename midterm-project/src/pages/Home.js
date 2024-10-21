@@ -37,33 +37,34 @@ const renderDestinations = () => {
   
     return (
       <div className="container mx-auto p-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-  
-          {/* Cities Block */}
-          <div className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={sampleCity.image} 
-              alt="City Background" 
-              className="w-full h-64 object-cover" 
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <h2 className="text-white text-3xl font-bold">Cities</h2>
-            </div>
-          </div>
-  
-          {/* Countries Block */}
-          <div className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={sampleCountry.image} // Assuming the same image for simplicity; you can use another one
-              alt="Country Background" 
-              className="w-full h-64 object-cover" 
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <h2 className="text-white text-3xl font-bold">Countries</h2>
-            </div>
-          </div>
-  
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <button 
+        className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden w-full h-64"
+        onClick={() => window.location.href = "/city"}
+        >
+        <img 
+          src={sampleCity.image} 
+          className="w-full h-full object-cover" 
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <h2 className="text-white text-3xl font-bold">Cities</h2>
         </div>
+        </button>
+      
+        <button 
+        className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden w-full h-64"
+        onClick={() =>  window.location.href = "/country"}
+        >
+        <img 
+          src={sampleCountry.image} 
+          alt="Country Background" 
+          className="w-full h-full object-cover" 
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <h2 className="text-white text-3xl font-bold">Countries</h2>
+        </div>
+        </button>
+      </div>
       </div>
     );
   };
