@@ -53,7 +53,7 @@ const renderDestinations = () => {
       
         <button 
         className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden w-full h-64"
-        onClick={() =>  window.location.href = "/country"}
+        onClick={() =>  window.location.href = "/countries"}
         >
         <img 
           src={sampleCountry.image} 
