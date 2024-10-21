@@ -9,7 +9,7 @@ yarn-error.log*
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
+# # Dependency directories
 node_modules/
 jspm_packages/
 

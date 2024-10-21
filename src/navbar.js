@@ -23,6 +23,7 @@ const Navbar = () => {
           <li><Link to="/" className="text-white block py-2 px-4">Home</Link></li>
           <li><Link to="/about" className="text-white block py-2 px-4">About</Link></li>
           <li><Link to="/countries" className="text-white block py-2 px-4">Countries</Link></li>
+          <li><Link to="/cities" className="text-white block py-2 px-4">Cities</Link></li>
         </ul>
       </div>
     </nav>
