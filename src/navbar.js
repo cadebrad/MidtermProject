@@ -1,10 +1,10 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './assets/logo.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className="bg-blue-500 p-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -22,6 +22,7 @@ const Navbar = () => {
         <ul className={`md:flex md:items-center md:space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
           <li><Link to="/" className="text-white block py-2 px-4">Home</Link></li>
           <li><Link to="/about" className="text-white block py-2 px-4">About</Link></li>
+          <li><Link to="/countries" className="text-white block py-2 px-4">Countries</Link></li>
         </ul>
       </div>
     </nav>
