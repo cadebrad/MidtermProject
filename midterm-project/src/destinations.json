@@ -1,0 +1,49 @@
+{
+    "destinations": [
+      {
+        "name": "Paris",
+        "country": "France",
+        "description": "Known for its cafes, fashion, and the iconic Eiffel Tower.",
+        "image": "https://source.unsplash.com/featured/?paris",
+        "attractions": [
+          "Eiffel Tower",
+          "Louvre Museum",
+          "Notre-Dame Cathedral"
+        ]
+      },
+      {
+        "name": "Tokyo",
+        "country": "Japan",
+        "description": "A bustling city blending modern architecture with traditional temples.",
+        "image": "https://source.unsplash.com/featured/?tokyo",
+        "attractions": [
+          "Tokyo Skytree",
+          "Senso-ji Temple",
+          "Shibuya Crossing"
+        ]
+      },
+      {
+        "name": "New York",
+        "country": "USA",
+        "description": "The city that never sleeps, famous for Times Square and Central Park.",
+        "image": "https://source.unsplash.com/featured/?newyork",
+        "attractions": [
+          "Statue of Liberty",
+          "Central Park",
+          "Empire State Building"
+        ]
+      },
+      {
+        "name": "Rome",
+        "country": "Italy",
+        "description": "A city rich with history, known for its ancient landmarks like the Colosseum.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rome_skyline_panorama.jpg/417px-Rome_skyline_panorama.jpg",
+        "attractions": [
+          "Colosseum",
+          "Vatican Museums",
+          "Pantheon"
+        ]
+      }
+    ]
+  }
+  
