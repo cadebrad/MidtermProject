@@ -73,7 +73,7 @@ const About = () => {
               <p className="card-text">
                 We attend Iowa State University and are both in 319 studying under
                 Doctor Abraham Aldaco. The current date is
-                <span style={{ fontWeight: "bold" }}>9/16/24</span>.
+                <span style={{ fontWeight: "bold" }}>10/20/24</span>.
               </p>
               <a href="https://www.iastate.edu/" className="btn btn-primary">
                 Visit our School's Homepage
