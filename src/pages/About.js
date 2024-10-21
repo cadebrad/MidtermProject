@@ -36,7 +36,7 @@ const About = () => {
 
         {/* Card 2 */}
         <div className="col-lg-3 col-md-6 mb-4">
-          <div className="card h-100">
+          <div className="card h-100 w-auto">
             <img
               src={henry_profile}
               className="card-img-top"

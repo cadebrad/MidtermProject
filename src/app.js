@@ -5,13 +5,12 @@ import Home from './pages/Home';
 import About from './pages/About'; 
 import Countries from './pages/Countries';
 import Cities from './pages/Cities';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <Router>
-      <div>
         <Navbar /> 
+        <div className="pt-40">
         <Routes>
           <Route path="/MidtermProject" element={<Home />} />
           <Route path="/about" element={<About />} />
