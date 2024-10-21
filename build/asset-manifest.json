@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MidtermProject/static/css/main.9437b980.css",
+    "main.js": "/MidtermProject/static/js/main.06808a32.js",
+    "static/media/logo.png": "/MidtermProject/static/media/logo.518cb37b5d787b667644.png",
+    "index.html": "/MidtermProject/index.html",
+    "main.9437b980.css.map": "/MidtermProject/static/css/main.9437b980.css.map",
+    "main.06808a32.js.map": "/MidtermProject/static/js/main.06808a32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9437b980.css",
+    "static/js/main.06808a32.js"
+  ]
+}
