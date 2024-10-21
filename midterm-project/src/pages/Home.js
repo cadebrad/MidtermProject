@@ -1,28 +1,72 @@
 import React from 'react';
 import destinationsData from '../destinations.json';
 const Home = () => {
+
+  return <div>
+      {welcome()}
+      {renderDestinations()}
+
+
+  </div>;
+};
+
+
+
+const welcome = () => {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Top Travel Destinations</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {destinationsData.destinations.map((destination, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src={destination.image} alt={destination.name} className="w-full h-48 object-cover" />
-            <div className="p-4">
-              <h2 className="text-xl font-bold mb-2">{destination.name}, {destination.country}</h2>
-              <p className="text-gray-700 mb-4">{destination.description}</p>
-              <h3 className="text-lg font-semibold">Top Attractions:</h3>
-              <ul className="list-disc list-inside">
-                {destination.attractions.map((attraction, i) => (
-                  <li key={i} className="text-gray-600">{attraction}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="my-10">
+      <h1 className="text-3xl font-bold mb-6 text-center">Welcome to Travel Buddy, check out our top picks!</h1>
     </div>
   );
-};
+}
+
+
+const renderCountriesandCities=()=>{
+
+}
+
+
+
+const renderDestinations = () => {
+    // Extract a sample city and country data from destinations
+    const destinationsArray = destinationsData.destinations;
+    const randomIndex = Math.floor(Math.random() * destinationsArray.length); 
+    console.log(randomIndex);
+    const sampleCity = destinationsData.destinations[randomIndex]; // Assuming the first destination is a city
+    const sampleCountry = destinationsData.destinations[randomIndex]; // Assuming the first country is used
+  
+    return (
+      <div className="container mx-auto p-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  
+          {/* Cities Block */}
+          <div className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+            <img 
+              src={sampleCity.image} 
+              alt="City Background" 
+              className="w-full h-64 object-cover" 
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+              <h2 className="text-white text-3xl font-bold">Cities</h2>
+            </div>
+          </div>
+  
+          {/* Countries Block */}
+          <div className="relative bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+            <img 
+              src={sampleCountry.image} // Assuming the same image for simplicity; you can use another one
+              alt="Country Background" 
+              className="w-full h-64 object-cover" 
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+              <h2 className="text-white text-3xl font-bold">Countries</h2>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    );
+  };
+  
 
 export default Home;

@@ -4,7 +4,7 @@
         "name": "Paris",
         "country": "France",
         "description": "Known for its cafes, fashion, and the iconic Eiffel Tower.",
-        "image": "https://source.unsplash.com/featured/?paris",
+        "image": "https://media.tacdn.com/media/attractions-content--1x-1/12/3b/1f/4c.jpg",
         "attractions": [
           "Eiffel Tower",
           "Louvre Museum",
@@ -15,7 +15,7 @@
         "name": "Tokyo",
         "country": "Japan",
         "description": "A bustling city blending modern architecture with traditional temples.",
-        "image": "https://source.unsplash.com/featured/?tokyo",
+        "image": "https://www.japan-guide.com/thumb/destination_tokyo.jpg",
         "attractions": [
           "Tokyo Skytree",
           "Senso-ji Temple",
@@ -26,7 +26,7 @@
         "name": "New York",
         "country": "USA",
         "description": "The city that never sleeps, famous for Times Square and Central Park.",
-        "image": "https://source.unsplash.com/featured/?newyork",
+        "image": "https://www.holidayhypermarket.co.uk/wp-content/uploads/2019/04/HH_NEWYORK_shutterstock_1740358463.png",
         "attractions": [
           "Statue of Liberty",
           "Central Park",
@@ -37,7 +37,7 @@
         "name": "Rome",
         "country": "Italy",
         "description": "A city rich with history, known for its ancient landmarks like the Colosseum.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rome_skyline_panorama.jpg/417px-Rome_skyline_panorama.jpg",
+        "image": "https://www.turismoroma.it/sites/default/files/Roma%20in%20breve.jpg",
         "attractions": [
           "Colosseum",
           "Vatican Museums",
