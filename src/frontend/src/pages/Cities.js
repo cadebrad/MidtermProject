@@ -1,5 +1,5 @@
 import React from 'react';
-import citiesData from '../../cities.json';
+import citiesData from '../cities.json';
 
 const Cities = () => {
   return (

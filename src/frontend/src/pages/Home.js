@@ -1,6 +1,6 @@
 import React from 'react';
-import destinationsData from '../../destinations.json';
-import countryData from '../../data.json';
+import destinationsData from '../destinations.json';
+import countryData from '../data.json';
 
 const Home = () => {
 
