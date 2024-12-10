@@ -5,7 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About'; 
 import Countries from './pages/Countries';
 import Cities from './pages/Cities';
-//import 'bootstrap/dist/css/bootstrap.min.css'
+import Favorites from './pages/Favorites';
+import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/countries" element={<Countries />} />
           <Route path="/cities" element={<Cities />} />
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </div>
     </Router>

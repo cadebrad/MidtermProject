@@ -24,6 +24,7 @@ const Navbar = () => {
           <li><Link to="/about" style={{ textDecoration: 'none' }}className="text-white block py-2 px-4 font-bold">About</Link></li>
           <li><Link to="/countries" style={{ textDecoration: 'none' }}className="text-white block py-2 px-4 font-bold">Countries</Link></li>
           <li><Link to="/cities" style={{ textDecoration: 'none' }}className="text-white block py-2 px-4 font-bold">Cities</Link></li>
+          <li><Link to="/favorites" style={{ textDecoration: 'none' }}className="text-white block py-2 px-4 font-bold">Favorites</Link></li>
         </ul>
       </div>
     </nav>
