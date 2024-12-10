@@ -1,1 +1,3 @@
 https://cadebrad.github.io/MidtermProject
+There is an occasional error when clicking on countries and cities from the home page due to react deployment on github pages
+For local builds it works completely fine

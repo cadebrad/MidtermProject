@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MidtermProject/static/css/main.e9a8e20d.css",
-    "main.js": "/MidtermProject/static/js/main.5ae31b80.js",
+    "main.css": "/MidtermProject/static/css/main.c345c1fb.css",
+    "main.js": "/MidtermProject/static/js/main.e77f5a99.js",
     "static/media/cade_profile.jpg": "/MidtermProject/static/media/cade_profile.1deba50807aed6d380c8.jpg",
     "static/media/logo.png": "/MidtermProject/static/media/logo.518cb37b5d787b667644.png",
     "static/media/isu.jpg": "/MidtermProject/static/media/isu.f4c016df7064ebcba5ef.jpg",
-    "static/media/Henry.jpg": "/MidtermProject/static/media/Henry.cff4a10f13889a26dcec.jpg",
+    "static/media/Henry.jpg": "/MidtermProject/static/media/Henry.b6838134a3b026cd781e.jpg",
     "index.html": "/MidtermProject/index.html",
-    "main.e9a8e20d.css.map": "/MidtermProject/static/css/main.e9a8e20d.css.map",
-    "main.5ae31b80.js.map": "/MidtermProject/static/js/main.5ae31b80.js.map"
+    "main.c345c1fb.css.map": "/MidtermProject/static/css/main.c345c1fb.css.map",
+    "main.e77f5a99.js.map": "/MidtermProject/static/js/main.e77f5a99.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9a8e20d.css",
-    "static/js/main.5ae31b80.js"
+    "static/css/main.c345c1fb.css",
+    "static/js/main.e77f5a99.js"
   ]
 }

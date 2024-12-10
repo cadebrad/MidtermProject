@@ -23,21 +23,17 @@ const welcome = () => {
 }
 
 
-const renderCountriesandCities=()=>{
-
-}
-
 
 
 const renderDestinations = () => {
-    // Extract a sample city and country data from destinations
+
     const destinationsArray = destinationsData.destinations;
     const countryArray = countryData.countries;
     const randomIndex = Math.floor(Math.random() * destinationsArray.length);
     const randomIndex1 = Math.floor(Math.random() * countryArray.length);  
     console.log(randomIndex);
-    const sampleCity = destinationsData.destinations[randomIndex]; // Assuming the first destination is a city
-    const sampleCountry = countryData.countries[randomIndex1]; // Assuming the first country is used
+    const sampleCity = destinationsData.destinations[randomIndex]; //Returns random city
+    const sampleCountry = countryData.countries[randomIndex1]; 
   
     return (
       <div className="container mx-auto p-4">
