@@ -1,5 +1,4 @@
-{
-    "countries": [
+ [
       {
         "name": "France",
         "capital": "Paris",
@@ -41,5 +40,5 @@
         "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTjWGpOdT4aaIYHY-oeyvg9sX8QBdcNbXm-GKTdAUtm-pHrROi5Qgyy0PJpRhoGjW-6S9vVvywjn5v63srY0bTsHnDCpThkQNgs83MnYw"
       }
     ]
-  }
+  
   

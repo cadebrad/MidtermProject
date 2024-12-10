@@ -1,5 +1,4 @@
-{
-  "cities": [
+[
     {
       "name": "Nice",
       "country": "France",
@@ -121,4 +120,4 @@
       ]
     }
   ]
-}
+
